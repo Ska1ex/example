@@ -1,10 +1,23 @@
 package project;
 
 public class Mouse {
-    private String kill;
-
-    public String getKill() {
-        return kill;
+    private  String name;
+    public Mouse(String name){
+        this.name = name;
     }
-    public void setKill(String kill) {this.kill = kill;}
+
+
+    public String getName() {
+        return name;
+
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void kill(Cat cat) {
+        System.out.println("Мышь по имени " + getName() + " убита кошкой по имени "+cat.getName());
+    }
+
 }

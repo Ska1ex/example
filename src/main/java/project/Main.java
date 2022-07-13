@@ -24,18 +24,23 @@ public class Main {
          */
         System.out.println("Hello");
         Cat cezar = new Cat();
+        cezar.setName("Цезарь");
         cezar.setColor("Black");
         cezar.setLapkiNumber(4);
         cezar.setEyeNumber(2);
         System.out.println(cezar);
         MainCat tiger = new MainCat();
+        tiger.setName("Тигр");
         tiger.setLapkiNumber(4);
         tiger.setColor("white");
         System.out.println(tiger);
 
 
-        Mouse mouse = new Mouse();
+
+        Mouse mouse = new Mouse("Крыс");
         System.out.println(mouse);
+      //  mouse.setName();
+        mouse.kill(tiger);
     }
 
 
