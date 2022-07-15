@@ -1,5 +1,7 @@
 package project;
 
+import project.food.DryFood;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -41,6 +43,10 @@ public class Main {
         System.out.println(mouse);
       //  mouse.setName();
         mouse.kill(tiger);
+
+        DryFood whiskas = new DryFood("Вискас");
+        whiskas.eat(tiger);
+
     }
 
 
