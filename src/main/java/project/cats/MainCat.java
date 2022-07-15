@@ -1,4 +1,4 @@
-package project;
+package project.cats;
 
 public class MainCat extends Cat{
 

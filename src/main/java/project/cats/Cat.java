@@ -1,11 +1,21 @@
-package project;
+package project.cats;
 
 public class Cat {
     private String color;
+
+    private Sex sex;
     private int lapkiNumber;
     private int eyeNumber;
 
     private String name;
+
+    public Sex getSex() {
+        return sex;
+    }
+
+    public void setSex(Sex sex) {
+        this.sex = sex;
+    }
 
     public String getName(){
         return name;}

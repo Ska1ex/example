@@ -1,6 +1,6 @@
 package project.food;
 
-import project.Cat;
+import project.cats.Cat;
 
 public class Food {
     private final String brand;
