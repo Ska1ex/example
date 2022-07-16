@@ -1,5 +1,7 @@
 package project.cats;
 
+import java.time.LocalDate;
+
 public class Cat {
     private String color;
 
@@ -8,6 +10,12 @@ public class Cat {
     private int eyeNumber;
 
     private String name;
+
+    private LocalDate createdAt = LocalDate.now();
+
+    public LocalDate getCreatedAt() {
+        return createdAt;
+    }
 
     public Sex getSex() {
         return sex;
